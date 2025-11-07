@@ -161,7 +161,6 @@ const Login = () => {
               placeholder="Enter Name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-            />
             <br />
           </>
         )}
@@ -171,7 +170,6 @@ const Login = () => {
           placeholder="Enter Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-        />
         <br />
 
         {isSignUp && (
@@ -181,7 +179,6 @@ const Login = () => {
               placeholder="Confirm Password"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
-            />
             <br />
           </>
         )}

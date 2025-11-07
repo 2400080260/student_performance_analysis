@@ -118,13 +118,7 @@ const Login = () => {
     setConfirmPassword('');
     setErrorMessage('');
   };
-
-  const toggleMode = () => {
-    setIsSignUp(!isSignUp);
-    clearForm();
-  };
-
-  return (
+ return (
     <div className="container login-page">
       <h1>Student Performance Analysis</h1>
       <div className="form-container">
